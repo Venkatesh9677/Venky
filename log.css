@@ -1,0 +1,36 @@
+*{margin: 0;
+padding: 0;
+box-sizing: border-box;}
+
+
+body{height: 100vh;
+display: flex;
+align-items: center;
+justify-content: center;}
+
+h1{text-align: center;}
+
+  
+
+.container{display: flex;
+flex-direction: column;
+background-color: gold;
+width: 20%;
+padding: 15px;
+border: 1px solid gold;
+border-radius: 5px;}
+
+label{margin-top: 30px;}
+
+input{margin: 5px 0px;
+height: 30px;
+padding: 4px; }
+
+
+
+.btn{background-color:white;border: .5px solid; border-radius: 2px;width: 60px ;
+height: 20px;margin-left: 80px;margin-top: 20px;
+}
+
+.btn:hover{color: gold ;background-color: black;  }
+
